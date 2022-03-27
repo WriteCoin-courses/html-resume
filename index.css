@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  color: rgb(9, 20, 16);
+  background: rgba(236, 164, 164, 0.5);
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+@media (max-width: 650px) {
+  .container {
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 25%;
+  }
+
+  .info {
+    display: block;
+  }
+
+  .card .feedback .form-row {
+    display: block;
+  }
+}
+
+.avatar {
+  border-radius: 25px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  height: 50%;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info .about {
+  margin-left: 40px;
+}
+
+a {
+  color: rgb(44, 84, 170);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+/* a:visited {
+  color: purple;
+} */
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+a:active {
+  color: rgb(0, 26, 255);
+}
+
+.hobby .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hobby .list li {
+  margin-bottom: 8px;
+  border-bottom: 1px solid green;
+}
+
+/* .job .table {
+  width: 100%;
+} */
+
+.job .table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.job .table td:hover {
+  background: lightgray;
+}
+
+.job .table thead tr:nth-child(odd) {
+  text-decoration: underline;
+}
+
+:nth-child(1):hover {
+  border-radius: 50%;
+}
+
+.btn {
+  background: darkgoldenrod;
+  padding: 15px 20px;
+  color: yellow;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: black;
+}
+
+.text p {
+  font-weight: normal;
+  font-style: italic;
+  color: rgb(0, 26, 255);
+}
+
+.social p {
+  color: #0c90ab;
+}
+
+.hobby h2 {
+  color: orange;
+}
+
+.job h2 {
+  color: red;
+}
+
+.feedback h2 {
+  color: brown;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card p,
+.card h2,
+.card li,
+.card td,
+.card th {
+  padding: 5px 20px;
+}
+
+.card table {
+  /* margin-left: 25px;
+  margin-bottom: 20px; */
+  padding: 15px;
+}
+
+.card td,
+.card th {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.card th {
+  background-color: chartreuse;
+}
+
+.card .text {
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.card .social {
+  border: 1px solid rgb(241, 188, 182);
+  background: rgb(241, 188, 182);
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.card .hobby {
+  border: 5px solid rgb(219, 250, 198);
+  background-color: rgb(219, 250, 198);
+  border-radius: 20px;
+}
+
+.card .job {
+  border: 1px solid antiquewhite;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+
+.card .feedback {
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 20px;
+}
+
+.card .feedback form {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.card .feedback form label {
+  padding-right: 20px;
+  margin-bottom: 10px;
+  /* display: block; */
+}
+
+.card .feedback form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.card .feedback .form-row {
+  display: flex;
+}
+
+.card .feedback .form-row div:last-child {
+  margin-right: 0px;
+}
+
+.message {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.message textarea {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: inherit;
+}
+
+.feedback button {
+  margin-top: 15px;
+}
+
+.feedback h2 {
+  text-align: center;
+}
+
+.feedback form div {
+  display: inline-block;
+}

@@ -7,84 +7,140 @@
     <title>WriteCoin</title>
     <meta name="description" content="Информация о себе" />
     <meta name="keywords" content="writecoin, resume, bio, history" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <img src="avatar.png" width="200">
-    <h1>Данила Воронков</h1>
-    <p>Я студент <strong>3 курса</strong> и изучаю программирование на различных языках, как высокоуровневых (<strong>C++/JavaScript/Java</strong>), так и низкоуровневых (прохожу сейчас <strong>ассемблер</strong>).</p>
-    <p>Но в основном занимаюсь любительским программированием и решаю задачи по потребности. Начинал с языка <em>Jass программирования сценариев карт для WarCraft</em>, потом <em>Lua</em> и пробовал даже <em>TypeScriptToLua</em> для него. В последнее время занялся <em>скриптами на BAS через nodeJS</em></p>
-    <p><strong>Список социальных сетей:</strong></p>
-    <a href="https://vk.com/writecoin" target="_blank">VK</a> |
-    <a href="https://t.me/writecoin" target="_blank">Telegram</a> |
-    <a href="https://www.youtube.com/channel/UCmBWl1heY_HL0-AR1uOz77Q" target="_blank">YouTube</a>
-    
-    <h2>Мои хобби</h2>
-    <ol>
-      <li>Спорт</li>
-      <li>WarCraft</li>
-      <li>BAS</li>
-    </ol>
+    <div class="container">
+      <div class="info">
+        <img class="avatar" src="avatar.png" width="200" />
+        <div class="about">
+          <h1>Данила Воронков</h1>
 
-    <h2>Опыт работы</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Название</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Arena of War</td>
-          <td>Jass Development</td>
-          <td>2018 - 2019</td> 
-        </tr>
-        <tr>
-          <td>MAI</td>
-          <td>C++</td>
-          <td>2019 - 2020</td>
-        </tr>
-        <tr>
-          <td>MAI</td>
-          <td>Java</td>
-          <td>2021</td>
-        </tr>
-        <tr>
-          <td>WarCraft</td>
-          <td>Lua & TypeScriptToLua</td>
-          <td>2020 - 2021</td> 
-        </tr>
-        <tr>
-          <td>Browser Automation Studio</td>
-          <td>JavaScript & nodeJS</td>
-          <td>2022 - сейчас</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Связаться со мной</h2>
-    <form>
-      <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
-      </div>
-      
-      <div>
-        <label for="email">Ваш email::</label>
-        <input type="email" id="email" placeholder="Введите email">
-      </div>
-      
-      <div>
-        <label for="message">Ваше сообщение:</label>
-        <br>
-        <textarea id="message" rows="5" placeholder="Введите сообщение..."></textarea>
+          <div class="card">
+            <div class="text">
+              <p>
+                Я студент <strong>3 курса</strong> и изучаю программирование на
+                различных языках, как высокоуровневых
+                (<strong>C++/JavaScript/Java</strong>), так и низкоуровневых
+                (прохожу сейчас <strong>ассемблер</strong>).
+              </p>
+              <p>
+                Но в основном занимаюсь любительским программированием и решаю
+                задачи по потребности. Начинал с языка
+                <em>Jass программирования сценариев карт для WarCraft</em>,
+                потом <em>Lua</em> и пробовал даже <em>TypeScriptToLua</em> для
+                него. В последнее время занялся
+                <em>скриптами на BAS через nodeJS</em>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- <input type="submit" value="Отправить!">
--->
-      <button type="submit">Отправить!</button>
+      <div class="card">
+        <div class="social">
+          <p><strong>Список социальных сетей:</strong></p>
+          <a href="https://vk.com/writecoin" target="_blank">VK</a> |
+          <a href="https://t.me/writecoin" target="_blank">Telegram</a> |
+          <a
+            href="https://www.youtube.com/channel/UCmBWl1heY_HL0-AR1uOz77Q"
+            target="_blank"
+            >YouTube</a
+          >
+        </div>
+      </div>
 
-    </form>
+      <div class="card">
+        <div class="hobby">
+          <h2>Мои хобби</h2>
+          <ol class="list">
+            <li>Спорт</li>
+            <li>WarCraft</li>
+            <li>BAS</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="job">
+          <h2>Опыт работы</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Arena of War</td>
+                <td>Jass Development</td>
+                <td>2018 - 2019</td>
+              </tr>
+              <tr>
+                <td>MAI</td>
+                <td>C++</td>
+                <td>2019 - 2020</td>
+              </tr>
+              <tr>
+                <td>MAI</td>
+                <td>Java</td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td>WarCraft</td>
+                <td>Lua & TypeScriptToLua</td>
+                <td>2020 - 2021</td>
+              </tr>
+              <tr>
+                <td>Browser Automation Studio</td>
+                <td>JavaScript & nodeJS</td>
+                <td>2022 - сейчас</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="feedback">
+          <h2>Связаться со мной</h2>
+          <form>
+            <div class="form-row">
+              <div>
+                <label for="name">Ваше имя:</label>
+                <br />
+                <input type="text" id="name" placeholder="Введите имя" />
+              </div>
+
+              <div>
+                <label for="email">Ваш email:</label>
+                <br />
+                <input type="email" id="email" placeholder="Введите email" />
+              </div>
+            </div>
+
+            <br />
+
+            <div class="message">
+              <label for="message">Ваше сообщение:</label>
+              <br />
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Введите сообщение..."
+              ></textarea>
+            </div>
+
+            <!-- <input type="submit" value="Отправить!">
+      -->
+
+            <br />
+            <button class="btn" type="submit">Отправить!</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
